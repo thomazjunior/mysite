@@ -1,9 +1,9 @@
 import * as React from "react";
 import "./App.css";
 import Header from "./Header";
-import Container from "@mui/material/Container";
-import { Box } from "@mui/system";
-import Body from "./Body";
+import Job from "./Job";
+import { FcBusinessman } from "react-icons/fc";
+import {HiAcademicCap} from "react-icons/hi";
 
 function App() {
   return (
@@ -12,9 +12,24 @@ function App() {
         <Header />
       </div>
 
-      <div className="body">
-        <Body/>
+      <div className="job">
+        <h4>
+          <FcBusinessman size={25} />
+          Experiências Profissionais:
+        </h4>
+        <Job />
       </div>
+
+      <div className="colege">
+        <h4>
+          <HiAcademicCap size={25} />
+          Experiências Acadêmicas:
+        </h4>
+        <Job />
+      </div>
+
+
+      
     </div>
   );
 }
