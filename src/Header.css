@@ -1,0 +1,128 @@
+* {
+box-sizing: content-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* The grid container */
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "header header header header header header"
+    "left left middle middle right right"
+    "footer footer footer footer footer footer";
+  /* grid-column-gap: 10px; - if you want gap between the columns */
+}
+
+.left,
+.middle,
+.right {
+  padding: 10px;
+}
+
+/* Style the left column */
+.left {
+  grid-area: left;
+  background-color: blue;
+  
+  
+}
+
+.nome{
+    margin-left: 50px;
+    font-size: 30;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+.titulo__cargo {
+    font-size: 14px;
+    margin-left: 30px;
+    margin-top: -20px;
+}
+
+/* Style the middle column */
+.middle {
+  grid-area: middle;
+  background-color: red;
+}
+
+/* Style the right column */
+.right {
+  grid-area: right;
+  min-width: 450px;
+  background-color: red;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .grid-container {
+    grid-template-areas:
+      "left left left left left left"
+      "middle middle middle middle middle middle"
+      "right right right right right right";
+  }
+}
+
+
+.header__avatar {
+  margin-top: 20px;
+  margin-left: 40px;
+  display:inline-block;
+}
+
+.header__name {
+  line-height: 0px;
+  margin-bottom: 60px;
+  margin-left: 40px;
+}
+
+.name {
+  font-size: 30px;
+  flex: 1;
+  margin-left: 10px;
+  margin-top: 20px;
+  font-family: 'Indie Flower', cursive;
+}
+
+.header__title {
+  flex: 1;
+  margin-top: -40px;
+  margin-left: 40px;
+  font-family: 'Indie Flower', cursive;
+}
+
+.texto__perfil > p {
+    text-indent: 0em;
+    text-align: center;
+    margin: 0vw;
+    font-family: 'Indie Flower', cursive;
+}
+
+p {
+  text-indent: 2em;
+  text-align: justify;
+  font-family: 'Indie Flower', cursive;
+}
+
+.stack {
+  line-height: 0px;
+  margin-bottom: 10px;
+  margin-top: 70px;
+  font-family: 'Indie Flower', cursive;
+  font-size: 15px;
+}
+
+.stack > p {
+  margin-top: -15px;
+}
+
+.logo {
+  margin-top: 1px;
+  margin-right: 5px;
+}
+
+
