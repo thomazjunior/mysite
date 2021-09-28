@@ -4,13 +4,12 @@ import Avatar from "@mui/material/Avatar";
 import ListItemButton from "@mui/material/ListItemButton";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
-import ListItem from "@mui/material/ListItem"
+import ListItem from "@mui/material/ListItem";
 import Grid from "@mui/material/Grid";
 
 export default function Job() {
   return (
     <div className="grid-container">
-      
       <div>
         <Grid item xs={12}>
           <ListItem className="listButton">
@@ -23,20 +22,19 @@ export default function Job() {
             <ListItemText primary="Caixa Econômica Federal" />
           </ListItem>
           <div>
-            
             <ListItemText>
               <div className="historico__trabalho">
-                  <h4>Função: Empregado Público Federal</h4>
-                  <p>Período: 01/2015 a 06/2020</p>
-                  <p>
-                    Resumo: Prestei concurso público no ano de 2014 para a Caixa
-                    Econômica Federal, um banco do governo brasileiro. Fui
-                    aprovado em 9º lugar. Ao longo desse período em que estive
-                    na empresa, exerci principalmente a função de bancário.
-                    Porém, fazia prestações de serviços relacionadas a TI,
-                    relacionadas a JavaScript, HTML, CSS, SQL, dentre outras
-                    linguagens e tecnologias.
-                  </p>
+                <h4>Função: Empregado Público Federal</h4>
+                <p>Período: 01/2015 a 06/2020</p>
+                <p>
+                  Resumo: Prestei concurso público no ano de 2014 para a Caixa
+                  Econômica Federal, um banco do governo brasileiro. Fui
+                  aprovado em 9º lugar. Ao longo desse período em que estive na
+                  empresa, exerci principalmente a função de bancário. Porém,
+                  fazia prestações de serviços relacionadas a TI, relacionadas a
+                  JavaScript, HTML, CSS, SQL, dentre outras linguagens e
+                  tecnologias.
+                </p>
               </div>
             </ListItemText>
           </div>
@@ -44,36 +42,36 @@ export default function Job() {
       </div>
 
       <div>
-        <Grid container spacing={2}>
-          <Grid  item xs={12}>
-            <ListItemButton className="listButton">
-              <ListItemIcon>
-                <Avatar
-                  className="logoCaixa"
-                  src="https://infoenem.com.br/wp-content/uploads/2017/03/unigranrio_logo-1024x384.png"
-                />
-              </ListItemIcon>
-              <ListItemText primary="Universidade do Grande Rio (UNIGRANRIO)" />
-            </ListItemButton>
-            <ListItemText>
-              <div className="historico__trabalho">
-                <h4>Função: Estagiário e Bacharel</h4>
-                <p>Período: 01/2014 a 12/2017</p>
-                <p>
-                  Resumo: Como estagiário, pude ter contato com várias
-                  tecnologias e linguagens. Dentre elas, destaca-se PostgreSQL,
-                  BI, Java Spring, JSP, JSF, Hibernate, Tomcat. Também fui
-                  destaque em algumas turmas, a exemplo das de Segurança de Rede
-                  e Teste de Software.
-                </p>
-              </div>
-            </ListItemText>
-          </Grid>
+        <Grid item xs={12}>
+          <ListItem className="listButton">
+            <ListItemIcon>
+              <Avatar
+                className="logoCaixa"
+                src="https://infoenem.com.br/wp-content/uploads/2017/03/unigranrio_logo-1024x384.png"
+              />
+            </ListItemIcon>
+            <ListItemText primary="Universidade do Grande Rio (UNIGRANRIO)" />
+          </ListItem>
+          <div>
+          <ListItemText>
+            <div className="historico__trabalho">
+              <h4>Função: Estagiário e Bacharel</h4>
+              <p>Período: 01/2014 a 12/2017</p>
+              <p>
+                Resumo: Como estagiário, pude ter contato com várias tecnologias
+                e linguagens. Dentre elas, destaca-se PostgreSQL, BI, Java
+                Spring, JSP, JSF, Hibernate, Tomcat. Também fui destaque em
+                algumas turmas, a exemplo das de Segurança de Rede e Teste de
+                Software.
+              </p>
+            </div>
+          </ListItemText>
+          </div>
         </Grid>
       </div>
 
       <div>
-        <Grid  item xs={12}>
+        <Grid item xs={12}>
           <ListItemButton className="listButton">
             <ListItemIcon>
               <Avatar

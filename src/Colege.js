@@ -1,12 +1,12 @@
 import * as React from "react";
-import "./Job.css";
+import "./Colege.css";
 import Avatar from "@mui/material/Avatar";
 import ListItemButton from "@mui/material/ListItemButton";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import Grid from "@mui/material/Grid";
 
-export default function Job() {
+export default function Colege() {
   return (
     <div class="grid-container">
       <div class="left">

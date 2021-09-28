@@ -1,5 +1,4 @@
 import * as React from "react";
-import ListSubheader from "@mui/material/ListSubheader";
 import List from "@mui/material/List";
 import ListItemButton from "@mui/material/ListItemButton";
 import ListItemIcon from "@mui/material/ListItemIcon";
@@ -8,8 +7,8 @@ import { DiJava } from "react-icons/di";
 import { DiJavascript } from "react-icons/di";
 import { DiReact } from "react-icons/di";
 import { DiPhp } from "react-icons/di";
-import { BsCode} from "react-icons/bs";
 import {SiPostgresql} from "react-icons/si";
+import {BsCode} from "react-icons/bs";
 import {BsCodeSlash} from "react-icons/bs"
 
 import "./Skills.css";
