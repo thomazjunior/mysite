@@ -14,19 +14,22 @@ import { GoBookmark } from "react-icons/go";
 
 export default function Header() {
   return (
-    <div className="cabecalho">
-      <div className="grid-container">
-        <div className="left">
+      <div className="grid__cabecalho">
+
+
+        <div className="cabecalho__left">
           <Avatar
             className="header__avatar"
             sx={{ width: 130, height: 130 }}
             src="https://media-exp1.licdn.com/dms/image/D5603AQEj0G-HV4jLcw/profile-displayphoto-shrink_400_400/0/1629315155254?e=1638403200&v=beta&t=IF7uTAD3a2zKI21WMl51umCXqQ5Cw0LaPSkkuk80kbs"
           />
           <h4 className="nome">Paulo Thomaz Jr</h4>
-          <div className="titulo__cargo">
+          <div className="cabecalho__left__titulo__cargo">
             <p>Desenvolvedor Junior Full Stack</p>
           </div>
-          <div className="header__title">
+        
+        
+          <div className="cabecalho__left__dados">
             <Stack className="stack">
               <p>
                 <AiOutlineWhatsApp className="logo" size={20} /> +5521991047560
@@ -50,7 +53,7 @@ export default function Header() {
           </div>
         </div>
 
-        <div class="middle">
+        <div class="cabecalho__middle">
           <div className="header__center">
             <h4>
               <GoBookmark size={25} />
@@ -86,6 +89,5 @@ export default function Header() {
           <Skills />
         </div>
       </div>
-    </div>
   );
 }

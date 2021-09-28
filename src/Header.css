@@ -1,89 +1,36 @@
-.cabecalho {
-  background-color: red;
+.grid__cabecalho {
+  display: grid;
+  grid-template-areas: "left left middle middle right right";
+  /* grid-column-gap: 10px; - if you want gap between the columns */
+  font-family: "Indie Flower", cursive;
+    font-size: 15px;
+  
 }
 
-.nome{
-  margin-left: 30px;
-  font-size: 30;
-  font-style: italic;
-  margin-top: 5px;
+.cabecalho__left{
+  padding: 15px;
 }
 
-.titulo__cargo {
-  font-size: 14px;
-  margin-left: -30px;
+.cabecalho__left__dados {
+  margin-top: -40px;
+}
+
+
+
+.cabecalho__left__titulo__cargo {
   margin-top: -20px;
 }
 
 
-.left,
-.middle,
-.right {
-  padding: 18px;
+
+.cabecalho__middle {
+  width: 500px;
 }
 
-/* Style the left column */
-.left {
-  grid-area: left;
-}
-
-/* Style the middle column */
-.middle {
-  grid-area: middle;
-}
-
-/* Style the right column */
-.right {
-  grid-area: right;
-  min-width: 450px;
-}
-
-.header__avatar {
-  margin-top: 20px;
-  margin-left: 40px;
-  display:inline-block;
-}
-
-.header__name {
-  line-height: 0px;
-  margin-bottom: 60px;
-  margin-left: 40px;
-}
-
-.name {
-  font-size: 30px;
-  flex: 1;
-  margin-left: 10px;
-  margin-top: 20px;
-  font-family: 'Indie Flower', cursive;
-}
-
-.header__title {
-  flex: 1;
-  margin-top: -40px;
-  margin-left: 40px;
-  font-family: 'Indie Flower', cursive;
-}
-
-.texto__perfil > p {
-    text-indent: 0em;
-    text-align: center;
-    margin: 0vw;
-    font-family: 'Indie Flower', cursive;
-}
-
-p {
-  text-indent: 2em;
-  text-align: justify;
-  font-family: 'Indie Flower', cursive;
-}
 
 .stack {
-  margin-left: -70px;
   line-height: 0px;
-  margin-bottom: 10px;
   margin-top: 70px;
-  font-family: 'Indie Flower', cursive;
   font-size: 15px;
 }
 
@@ -91,9 +38,5 @@ p {
   margin-top: -15px;
 }
 
-.logo {
-  margin-top: 1px;
-  margin-right: 5px;
-}
 
 

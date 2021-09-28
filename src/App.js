@@ -1,7 +1,8 @@
 import * as React from "react";
 import "./App.css";
 import Header from "./Header";
-import Job from "./Job";
+import JobList from "./JobList";
+import Colege from "./Colege"
 import { FcBusinessman } from "react-icons/fc";
 import {HiAcademicCap} from "react-icons/hi";
 
@@ -17,7 +18,7 @@ function App() {
           <FcBusinessman size={25} />
           Experiências Profissionais:
         </h4>
-        <Job />
+        <JobList />
       </div>
 
       <div className="colege">
@@ -25,7 +26,7 @@ function App() {
           <HiAcademicCap size={25} />
           Experiências Acadêmicas:
         </h4>
-        <Job />
+        <Colege />
       </div>
 
 
