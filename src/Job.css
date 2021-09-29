@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .container__job {
 	display: inline-flex;
 	justify-content: space-between;
@@ -9,3 +10,27 @@
 	height: 210px;
 	margin-left: 25px;
 }
+=======
+.mdl-grid {
+	max-width: 600px;
+}
+.mdl-card__media {
+	margin: 0;
+}
+.mdl-card__media > img {
+	max-width: 100%;
+}
+.mdl-card__actions {
+	display: flex;
+	box-sizing:border-box;
+	align-items: center;
+}
+.mdl-card__actions > .mdl-button--icon {
+	margin-right: 3px;
+	margin-left: 3px;
+}
+
+.my-card-content {
+  padding: 16px;
+}
+>>>>>>> 7b12197d41bac3538b4c06c71dfe3765b00d7b11
