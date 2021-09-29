@@ -1,7 +1,7 @@
 import * as React from "react";
 import "./Header.css";
 import Avatar from "@mui/material/Avatar";
-
+import Destaques from "./Destaques";
 import Skills from "./Skills";
 import { ImLinkedin } from "react-icons/im";
 import { SiGmail } from "react-icons/si";
@@ -85,8 +85,11 @@ export default function Header() {
           </div>
         </div>
 
-        <div class="right">
+        <div className="right">
           <Skills />
+        </div>
+        <div className="right2">
+          <Destaques />
         </div>
       </div>
   );

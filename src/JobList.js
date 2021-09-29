@@ -1,5 +1,4 @@
 import Job from "./Job";
-import CardGallery from "react-card-image-gallery";
 import "./JobList.css";
 
 export default function JobList() {
