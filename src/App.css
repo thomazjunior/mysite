@@ -1,26 +1,4 @@
-* {
-  box-sizing: content-box;
-}
-/* The grid container */
-.grid-container {
-  display: grid;
-  grid-template-areas: "left left middle middle right right";
-  /* grid-column-gap: 10px; - if you want gap between the columns */
-
-  font-family: "Indie Flower", cursive;
-  margin-top: -30px;
-}
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #cdcdc1;
-  justify-content: space-between;
-}
-
-.job {
-  margin-top: 50px;
-}
-
-.colege {
-  margin-top: 50px;
+.container {
+    display: flex;
+    justify-content: space-evenly;
 }

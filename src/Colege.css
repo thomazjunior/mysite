@@ -1,0 +1,28 @@
+.grid__container__colege {
+  display: grid;
+  grid-template-areas: "left left middle middle right right";
+  /* grid-column-gap: 10px; - if you want gap between the columns */
+
+  font-family: "Indie Flower", cursive;
+  margin-top: -23px;
+  
+}
+
+
+.grid__container__colege:hover {
+  opacity: 0.5;
+  border-style: groove;
+  border-block-color: gray;
+}
+
+
+.container__colege__empresa {
+  justify-content: space-evenly;
+  padding: 10px;
+ 
+}
+
+.container__colege__empresa__descricao {
+  line-height: 20px;  
+
+}
