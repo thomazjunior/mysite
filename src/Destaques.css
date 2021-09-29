@@ -1,11 +1,13 @@
-.container__job {
+.container__destaques {
 	display: inline-flex;
 	justify-content: space-between;
 	align-items: center;
 }
 
-.container__job__ {
+
+.container__destaques__ {
 	display: flex;
-	height: 210px;
+	height: 120px;
 	margin-left: 25px;
+  margin-bottom: 15px;
 }
