@@ -3,17 +3,9 @@ import "./JobList.css";
 
 export default function JobList() {
   return (
-    <div className="container">
-      <div className="container__job">
+      <div className="container__jobs">
           <Job />
       </div>
-      <div>
-          <Job className="container__job"/>
-    </div>
-    <div>
-          <Job className="container__job"/>
-    </div>
-    </div>
   );
 }
 

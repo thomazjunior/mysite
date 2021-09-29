@@ -32,6 +32,9 @@
   line-height: 0px;
   margin-top: 70px;
   font-size: 15px;
+  display: block;
+  width: 250px;
+  background-color: red;
 }
 
 .stack > p {

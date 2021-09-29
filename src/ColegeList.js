@@ -1,18 +1,12 @@
-import Job from "./Job";
+import Colege from "./Colege";
 import "./JobList.css";
 
 export default function JobList() {
   return (
     <div className="container">
       <div className="container__colege">
-          <Job />
+          <Colege />
       </div>
-      <div>
-          <Job className="container__colege"/>
-    </div>
-    <div>
-          <Job className="container__colege"/>
-    </div>
     </div>
   );
 }

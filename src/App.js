@@ -5,6 +5,7 @@ import JobList from "./JobList";
 import ColegeList from "./ColegeList"
 import { FcBusinessman } from "react-icons/fc";
 import {HiAcademicCap} from "react-icons/hi";
+import Destaques from "./Destaques";
 
 function App() {
   return (
@@ -27,6 +28,14 @@ function App() {
           Experiências Acadêmicas:
         </h4>
         <ColegeList />
+      </div>
+
+      <div className="colege">
+        <h4>
+          <HiAcademicCap size={25} />
+          Destaques:
+        </h4>
+        <Destaques />
       </div>
 
 
